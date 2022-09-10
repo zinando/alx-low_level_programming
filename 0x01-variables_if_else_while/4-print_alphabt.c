@@ -13,7 +13,7 @@ int main(void)
 
 	for (x = 97; x < 123; x++)
 	{
-		if (x != 101 || x != 113)
+		if (x != 101 && x != 113)
 		{
 			ch = x;
 			putchar(ch);
