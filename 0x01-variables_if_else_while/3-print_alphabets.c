@@ -19,6 +19,7 @@ int main(void)
 	for (x = 65; x < 91; x++)
 	{
 		ch = x;
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
