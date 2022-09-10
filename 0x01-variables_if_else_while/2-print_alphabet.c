@@ -10,7 +10,7 @@ int main(void)
 {
 	int x;
 	char ch;
-	
+
 	for (x = 97; x < 123; x++)
 	{
 		ch = x;
