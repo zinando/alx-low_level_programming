@@ -13,8 +13,8 @@ int main(void)
 	for (x = 0; x < 10; x++)
 	{
 		putchar(x % 10 + '0');
-		putchar('\,');
-		putchar('\ ');
+		putchar(44);
+		putchar(040);
 	}
 	putchar('\n');
 	return (0);
