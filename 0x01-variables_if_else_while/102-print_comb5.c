@@ -1,8 +1,9 @@
 #include <stdio.h>
-
 /**
  *
- * main - prints unique  possible combinations of two two-digits
+ * main - Entry point
+ *
+ * Description - prints unique  possible combinations of two two-digits
  *
  * Return: Always 0 (Success)
  */
@@ -32,7 +33,7 @@ int main(void)
 						putchar(d3 + '0');
 						putchar(d4 + '0');
 
-						if (!((e1 == 98) && (e2 == 99)))
+						if !((e1 == 98) && (e2 == 99))
 						{
 							putchar(',');
 							putchar(' ');
