@@ -33,7 +33,7 @@ int main(void)
 						putchar(d3 + '0');
 						putchar(d4 + '0');
 
-						if !((e1 == 98) && (e2 == 99))
+						if (!((e1 == 98) && (e2 == 99)))
 						{
 							putchar(',');
 							putchar(' ');
