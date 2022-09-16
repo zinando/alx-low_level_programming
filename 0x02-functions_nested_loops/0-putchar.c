@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
  * Main - entry point
  *
@@ -6,17 +7,16 @@
  *
  * Return : Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
-	char d[] = {'_','p','u','t','c','h','a','r','\0'};
-
 	int x = 0;
+	char y[] = "_putchar";
 
-	while (x < 8 )
+	while (x < 8)
 	{
-		putchar(d[x]);
-		x++;
+		_putchar(y[x]);
+		x += 1;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
