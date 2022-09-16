@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * Main - entry point
+ * main - entry point
  *
  * Description - This function prints _putchar on the std output
  *
- * Return : Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
