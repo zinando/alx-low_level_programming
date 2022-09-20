@@ -2,6 +2,7 @@
 /**
  * print_rev - prints a string to standard output in reverse form
  * @s : the string variable to be printed
+ * Return: void
  */
 void print_rev(char *s)
 {
