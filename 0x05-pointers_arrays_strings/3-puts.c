@@ -13,7 +13,7 @@ void _puts(char *str)
 		c++;
 	}
 
-	while (x <= c)
+	while (x < c)
 	{
 		_putchar(str[x]);
 		x++;
