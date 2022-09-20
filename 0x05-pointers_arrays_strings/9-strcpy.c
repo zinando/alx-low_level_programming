@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * _strcpy - copies a string pointed to by a
  * pointer to a buffer pointed to by another pointer
@@ -10,7 +11,5 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	dest = src;
-
-	return (dest);
+	return (strcpy(dest, src));
 }
