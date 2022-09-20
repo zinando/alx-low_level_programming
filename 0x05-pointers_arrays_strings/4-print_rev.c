@@ -14,7 +14,7 @@ void print_rev(char *s)
 	{
 		c++;
 	}
-	x = c;
+	x = c - 1;
 
 	while (x >= 0)
 	{
