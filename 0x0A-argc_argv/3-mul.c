@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * main - entry point. Prints the sum of two numbers
+ * main - entry point. Prints the product of two numbers
  * passed as arguments
  * or Prints Error if two arguments were not provided
  *
@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 
 		i = atoi(argv[argc - 1]);
 		j = atoi(argv[argc - 2]);
-		sum = i + j;
+		sum = i * j;
 
 		printf("%d\n", sum);
 
